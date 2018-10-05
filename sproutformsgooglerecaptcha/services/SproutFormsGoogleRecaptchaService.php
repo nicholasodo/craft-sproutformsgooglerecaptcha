@@ -13,7 +13,7 @@
 
 namespace Craft;
 
-require_once './../craft/plugins/sproutformsgooglerecaptcha/vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 class SproutFormsGoogleRecaptchaService extends BaseApplicationComponent
 {
